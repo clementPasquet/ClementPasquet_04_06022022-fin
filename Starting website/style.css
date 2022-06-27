@@ -1021,7 +1021,228 @@ h4 {
         text-align: center;
     }
 }
-
+@media (min-width: 1441px) {
+    .picture-band{
+        margin-right: auto;
+        margin-left:auto;
+        width:80%;
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+    }
+    .picture-bloc{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:30px;
+    }
+    .picture{
+       height:300px;
+       width:300px;
+    }
+    iframe{
+    width:291px ;
+    height:202px;
+    }
+    
+    
+    .photo {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width:90%;
+        height: 100%;
+        margin:auto;
+    }
+    
+    
+    .photo-card{
+        height:200px;
+        width:300px;
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       margin: 15px;
+    }
+    .sous-titres{
+        text-align: center;
+    }
+    footer{
+        margin-top:20px;
+        margin-right:auto;
+        margin-left:auto;
+        background-image: url("./imgWebp/image-de-presentation.webp");
+        background-repeat: no-repeat;
+        background-size:cover;
+        width:100%;
+        height:300px;
+    }
+    .paragraphe{
+        color:black;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .textFooter{
+        width:10%;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    
+    .annonce{
+        color: #757575;
+        font-size: 18px;
+        padding-top:60px;
+        padding-bottom: 20px;
+        width:40%;
+        margin:auto;
+    }
+    .annonce-id{
+        font-weight: 600;
+        color:black;
+    }
+    
+    .sous-titres{
+        font-size: 22px;
+        font-weight: bold;
+        font-style: italic;
+        color:black;
+        padding-bottom: 30px;
+    }
+    
+    .navbarContact{
+        margin-right:100px;
+        
+    }
+    
+    .header{
+        background-image: url("./imgWebp/la-chouette-agence-banniere.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:250px;
+        width:auto;
+    }
+    
+    
+    .enTete {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        padding:10px 30px 10px 30px;
+    }
+    .lien{
+        color:white;
+        font-weight: bold;
+        background-color: #000000;
+        padding: 5px;
+        margin-top: 30px;
+        border-radius: 30%;
+    }
+    .lien:visited{
+        color:white;
+        font-weight: bold;
+    }
+    .titre{
+        color:white;
+        font-size: 50px;
+    }
+    .fonction{
+        margin:0px 10px 30px 10px;
+        
+    }
+    
+    .navbar.row{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar.row a{
+        text-decoration: none;
+    }
+    .enTetE{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 90%;
+        padding-left:20px;
+    }
+    
+    .navLien{
+        text-decoration: none;
+        color: #757575;
+    }
+    
+    .formulaire{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:flex-start;
+    }
+    
+    .location{
+        padding: 30px 30px 30px 20px;
+        font-size: 15px;
+    }
+    
+    .form-group{
+        padding:10px;
+    }
+    .enTete{
+        padding-top: 15px;
+      }
+    
+    .maploc{
+        position:absolute;
+        z-index:1;
+        right:8%;
+    }
+    .maploc-footer{
+        display:none;
+    }
+    .send-btn{
+        margin-left:auto;
+         margin-right:auto; 
+         width: 20%;
+         display: block;
+         
+    }
+    .cat{
+        margin-bottom: 5px;
+    }
+    .form-control{
+        width:100%;
+    }
+    label{
+        width:100%;
+    }
+    .form-group{
+        width:30%;
+    }
+    .text-center{
+        overflow:hidden;
+        flex-wrap: wrap;
+    }
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 202px;
+        width: 291px;
+    }
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 202px;
+        width: 291px;
+    }
+    .logo{
+        width:500px;
+        height:120px;
+    }
+    }
+@media screen and (max-width:1440px){
 .picture-band{
     margin-right: auto;
     margin-left: auto;
@@ -1157,7 +1378,8 @@ footer{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 80%;
+    max-width: 95%;
+    padding-left:20px;
 }
 
 .navLien{
@@ -1187,7 +1409,7 @@ footer{
 .maploc{
     position:absolute;
     z-index:1;
-    right:20%;
+    right:3.5%;
 }
 .maploc-footer{
     display:none;
@@ -1231,17 +1453,40 @@ label{
     width:500px;
     height:120px;
 }
-
-@media screen and (max-width:1162px){
+}
+@media screen and (max-width:1384px){
+    .contactHeader{
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .picture-band{
         flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .picture-bloc{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:30px;
+    }
+    .picture{
+       height:300px;
+       width:300px;
     }
     .sous-titres{
         width:95%;
         margin:auto;
     }
     footer{
-        padding:10px;
+      
+        width:100%;
     }
     .send-btn{
        margin-left:auto;
@@ -1260,7 +1505,7 @@ label{
      margin-left:auto;
      margin-right:auto;
      display:inline-block;
-     width:max-content;
+     
     }
 
     .photo{
@@ -1303,9 +1548,39 @@ label{
         width:100%;
     }
 }
-@media screen and (max-width:425px){
-    
 
+@media screen and (max-width:1024px){
+    #form_1{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .textFooter{
+
+        width:90%;
+        margin-right:auto;
+        margin-left:auto;
+       
+    }
+    .contactFooter{
+        padding:0px;
+    }
+    .iframe{
+        width:190px;
+    }
+    
+}
+@media screen and (max-width:425px){
+
+.contactFooter{
+    width:100%;
+    padding:0px;
+}
+    
+.logO{
+      height:50px;
+}
 .titre{
     font-size: 35px;
 }
@@ -1325,5 +1600,14 @@ label{
 .form-group{
     width:90%;
 }
+
+    .maploc-footer{
+        margin-left:auto;
+        margin-right:auto;
+        display:inline-block;
+       
+       }
+
+       
 
 }
